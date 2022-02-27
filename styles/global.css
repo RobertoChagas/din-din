@@ -21,3 +21,50 @@ header a{
     color: #FDFDFD;
     text-decoration: none;
 }
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 309px;
+    height: 24px;
+}
+
+footer {
+    max-width: 1440px;
+    height: 207px;
+    background-color: #2E948A;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+footer nav a {
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #FDFDFD;
+    margin: 5px;
+}
+
+
+footer div a {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-decoration: none;
+    color: #FDFDFD;
+    font-size: 20px;
+    border-radius: 47px;
+    border: solid 1px #FDFDFD;
+    width: 289px;
+    height: 51px;
+    margin: 14px 0px 14px 0px;
+    align-items: center;
+}
