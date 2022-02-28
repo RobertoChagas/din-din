@@ -36,3 +36,42 @@
     font-size: 27px;
     color: #FF4081;
 }
+
+#card-cursos{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F6F6F6;
+    padding: 10%;
+}
+
+#card-cursos div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    margin: 0 auto;
+}
+
+#card-cursos div img {
+    height: 270px;
+}
+
+#card-cursos div h3 {
+    color: #FF4081;
+    font-weight: 700;
+    font-size: 23px;
+}
+
+#card-cursos div p {
+    text-align: center;
+}
+
+#card-cursos div a {
+    text-decoration: none;
+    color: #FFFF;
+    background-color: #FF4081;
+    border: 1px solid;
+    border-radius: 62px;
+    padding: 10px 40px;
+}
