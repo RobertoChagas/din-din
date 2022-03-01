@@ -1,0 +1,74 @@
+
+
+#banner {
+    padding: 5% 0 2% 10%;
+}
+
+#banner h1 {
+    font-weight: 700;
+    font-size: 60px;
+    color: #FF4081;
+    margin: 0 auto;
+}
+
+#banner p {
+    font-weight: 400;
+    font-size: 20px;
+    color: #555555;
+    margin: 0 auto;
+}
+
+
+#container-cursos .curso {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 80%;
+    height: 380px;
+    padding: 5% 0% 5% 10%;
+    gap: 5%;
+}
+
+#container-cursos .curso img {
+    height: 100%;
+    width: 380px;
+}
+#img-ind {
+    padding-right: 10%;
+}
+
+#container-cursos .curso div h2 {
+    font-weight: 700;
+    font-size: 35px;
+    color: #FF4081;
+    
+}
+
+#container-cursos .curso div p{
+    text-align: justify;
+}
+
+#container-cursos .curso div div {
+    display: flex;
+    padding-top: 5%;
+}
+#container-cursos .curso div div a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #419488;
+    padding: 3% 10%;
+    border: 1px solid;
+    border-radius: 62px;
+    
+}
+
+#borda {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: #C4C4C4;
+    height: 5px;
+    width: 80%;
+}
