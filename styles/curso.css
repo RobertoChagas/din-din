@@ -1,0 +1,71 @@
+#banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:  10% 13%;
+}
+
+#banner div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#banner div h1 {
+    font-size: 55px;
+    font-weight: 700;
+    color: #FF4081;
+    padding-right: 5%;
+    margin: 0;
+}
+
+#banner div p {
+    font-weight: 300;
+    font-size: 20px;
+    padding-right: 20%;
+    margin: 10% 0;
+    
+}
+
+#banner div img {
+    height: 100%;
+}
+
+#container-aula{
+    background-color: #F6F6F6;
+    margin: 0 auto;
+}
+
+#container-aula .aula {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 80%;
+    height: 380px;
+    padding: 5% 0% 5% 10%;
+    gap: 5%;
+}
+
+
+#container-aula .aula div h2 {
+    font-weight: 700;
+    font-size: 35px;
+    color: #FF4081;
+    
+}
+
+#container-aula .aula div p{
+    text-align: justify;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+#borda {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: #C4C4C4;
+    height: 3px;
+    width: 90%;
+}
