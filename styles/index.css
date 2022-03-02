@@ -1,0 +1,170 @@
+#banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10% 13%;
+}
+
+#banner div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#banner div h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #FF4081;
+    padding-right: 5%;
+    margin: 0;
+}
+
+#banner div p {
+    font-weight: 400;
+    font-size: 27px;
+    padding-right: 20%;
+    margin: 10% 0;
+    
+}
+
+#banner div a {
+    text-decoration: none;
+    border-radius: 62px;
+    border: 1px solid;
+    padding: 10px 30px;
+    font-size: 27px;
+    color: #FF4081;
+}
+
+#card-cursos{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F6F6F6;
+    padding: 10%;
+}
+
+#card-cursos div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    margin: 0 auto;
+}
+
+#card-cursos div img {
+    height: 270px;
+}
+
+#card-cursos div h3 {
+    color: #FF4081;
+    font-weight: 700;
+    font-size: 23px;
+}
+
+#card-cursos div p {
+    text-align: center;
+}
+
+#card-cursos div a {
+    text-decoration: none;
+    color: #FFFF;
+    background-color: #FF4081;
+    border: 1px solid;
+    border-radius: 62px;
+    padding: 10px 40px;
+}
+
+#card-feedback h1{
+    font-weight: 700;
+    font-size: 37px;
+    color: #009688;
+    margin: 10% 0% 10% 10%;
+}
+
+#card-feedback .container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    border: 0 ;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+    margin-right: 0%;
+    border-right: 0%;
+    
+}
+
+#card-feedback .container div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10%;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#card-feedback .container p {
+    margin-right: 5%;
+}
+
+.card-mais-conteudo {
+    background-color: #F6F6F6;
+}
+
+.card-mais-conteudo h1 {
+    font-weight: 700;
+    font-size: 37px;
+    color: #009688;
+    padding: 10% 10% 5% 10%;
+}
+
+.card-mais-conteudo div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.card-mais-conteudo div img {
+    width: 319px;
+}
+
+.card-mais-conteudo div p {
+    width: 319px;
+}
+
+#container-mais-conteudo h3 {
+    font-weight: 700;
+    font-size: 27px;
+    color: #009688;
+
+    
+}
+
+#container-mais-conteudo{
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 0% 5% 0% 7%;
+}
+
+#link{
+    display: flex;
+    align-items: center;
+    height: 150px;
+}
+
+#link a {
+
+    color: #FF4081;
+    text-align: center;
+    text-decoration: none;
+    border: solid 1px;
+    border-radius: 62px;
+    padding: 10px 30px;
+    width: 200px;
+    
+}
