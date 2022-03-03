@@ -47,11 +47,16 @@
     padding: 5%;
 }
 
+#posts div a {
+    text-decoration: none;
+}
+
 #posts div h3 {
     color: #FF4081;
     font-weight: 500;
     font-size: 30px;
     margin-bottom: 0px;
+   
 }
 
 #posts div p {
