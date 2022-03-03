@@ -68,3 +68,47 @@ footer div a {
     margin: 14px 0px 14px 0px;
     align-items: center;
 }
+
+@media only screen and (max-width: 480px){
+    body {
+        margin: 0;
+    }
+    header {
+        display: flex;
+        justify-content: space-around;
+        padding-right: 5%;
+        width: 100%;
+        height: 80px;
+    }
+    header  img {
+        width: 100px;
+    }
+
+    header nav a {
+        font-size: 15px;
+        padding-top: 2%;
+       margin-right: 2%;
+    }
+
+    footer {
+        max-width: 100%;
+        height: 80px;
+    }
+
+    footer img {
+        width: 100px;
+    }
+
+    #nav-footer{
+        display: none;
+    }
+
+    #link-footer a{
+        box-sizing: border-box;
+        width: 150px;
+        font-size: 15px;
+        height: 20px;
+        margin: 5% 0% 5% 5%;
+        
+    }
+}
