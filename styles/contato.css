@@ -54,3 +54,27 @@
     margin-top: 2%;
 }
 
+@media only screen and (max-width: 480px){
+
+    body {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #formulario div img {
+        display: none;
+    }
+
+    #container-form {
+        width: 100%;
+    }
+
+    #container-form div form input {
+        width: 100%;
+    }
+
+    #container-form div form textarea {
+        width: 100%;
+    }
+
+}
