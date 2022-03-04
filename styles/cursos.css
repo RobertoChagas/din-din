@@ -117,3 +117,13 @@
         width: 80%;
     }
 }
+
+@media only screen and (max-width: 820px) and (min-width: 481px){
+    #container-cursos .curso img {
+        width: 250px;
+    }
+
+    #img-ind {
+        padding-right: 0px;
+    }
+}
